@@ -1,0 +1,77 @@
+/*Define a fonte padrão e a cor de fundo */
+body {
+    font-family: arial, sans-serif;
+    background-color:rgb(235, 216, 192)
+    margin 20px;
+    padding: 20 px;
+}
+
+/* estiliza o cabeçalho */
+header {
+text-align: center;
+background-color: #b44d4d;
+color: antiquewhite;
+padding: 20xp;
+}
+
+/*Estiliza o menu de navegação*/
+nav ul li {
+    display: incline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+/*Ajusta o espaçamento das seções*/
+section {
+    margin: 20xp 0;
+    padding: 10xp;
+    background: white;
+    border-radius: 5px;
+}
+/*Ajusta a imagem do currículo*/
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10 px;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espaço entre a foto e o texto */
+}
+
+#sobre img {
+    width: 200px; /* Define o tamanho da imagem */
+    border-radius: 10px;
+}
+
+#sobre p {
+    max-width: 400px; /* Define um limite para o texto */
+    text-align: justify;
+}
+
+#skills {
+    margin-bottom: 20px;
+}
+
+#skills h2 {
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: disc; /* Usar bolinhas padrão da lista */
+    padding-left: 20px; /* Ajusta o alinhamento à esquerda */
+}
+
+#skills li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+}
